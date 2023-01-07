@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(35, 114, 231, 0.877) !important;
+    color: rgb(248, 248, 248) !important;
+}
+a:hover{
+    color: blue!important;
+}
+
+/* Header Banner Section */
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0px;
+    height: 100vh;
+    background: url("images/banner/banner2.png");
+    background-position: center center, center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: right;
+    right: 230px;
+    width: 500px;
+}
+
+.banner-title {
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+}
+
+.banner-description {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.banner-button {
+
+    padding: 20px 35px;
+    outline: none;
+    border: none;
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* Header Banner Section END */
+
+/* My Failure Section */
+.my-failure {
+    display: flex;
+    height: 500px;
+    padding: 100px 150px;
+}
+
+.my-failure-img {
+    text-align: right;
+    padding-right: 50px;
+    flex-basis: 50%;
+
+}
+
+.my-failure-img>img {
+    width: 500px;
+}
+
+.my-failure-text {
+    padding-left: 50px;
+    padding-top: 170px;
+    flex-basis: 50%;
+}
+
+.text-des {
+    display: flex;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 0px;
+
+    color: #444343;
+}
+
+.text-des>img {
+    width: 24px;
+    height: 24px;
+}
+
+.text-des>.description {
+    padding-left: 10px;
+}
+
+.all-details>.description {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+.my-failure-text {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+/* My Failure Section END */
+
+/* for my plan section */
+.my-plan {
+    padding-top: 140px;
+    text-align: center;
+    display: flex column;
+}
+
+.my-plan>.title>h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+
+}
+
+.category {
+    text-align: center;
+    margin: 40px;
+}
+
+.category>h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    padding-top: 30px;
+}
+
+.category>p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+    padding-top: 16px;
+}
+
+/* call now function */
+.call-now-section {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.call-now {
+    margin-top: 120px;
+    height: auto;
+    width: 65%;
+    background-position: center top;
+
+}
+
+.call-now-box {
+
+    display: flex column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 64px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
+    background-position: center center, center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.call-now-box>h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+}
+
+.call-now-button {
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #F15B22;
+    padding: 15px 26px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* footer section */
+
+.footer-section {
+    height: 500px;
+    margin-top: 130px;
+    display: flex;
+    background: #151414;
+}
+
+.left-footer {
+    flex-basis: 50%;
+    padding: 120px 200px;
+}
+
+.left-footer>h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.left-footer>p {
+    padding: 6px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.right-footer {
+    flex-basis: 50%;
+}
+
+.social>a {
+    padding-right: 17px;
+}
+
+.social>a>img {
+    margin-top: 32px;
+    width: 46px;
+    height: 46px;
+}
+
+.subscribe {
+    margin-top: 150px;
+
+}
+
+.subscribe>h1 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.subscribe>form>input {
+    margin-top: 31px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(255, 255, 255);
+    width: 325px;
+    height: 64px;
+    background: none;
+    padding: 0px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.subscribe>form>button {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #F15B22;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+}
+
+.subscribe>form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Recently working project section */
+.project-image {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.project-work-single {
+    width: 300px;
+    padding: 10px;
+
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.project-work-single>h2 {
+    padding-top: 5px;
+    margin: 5px;
+
+}
+
+.project-work-single>a {
+
+    text-align: center;
+    color: rgb(63, 60, 60);
+}
+
+.skill-head {
+    display: flex;
+    justify-content: center;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+}
+
+.project-work {
+    display: flex;
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.project-sec>h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.project-sec {
+    margin-top: 130px;
+}
